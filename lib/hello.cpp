@@ -10,8 +10,8 @@ std::string g_test;
 __attribute__((constructor))
 static void init()
 {
-	printf("init\n");
-	g_test = "hell test";
+	g_test = "hello test";
+	printf("init: %s\n", g_test.c_str());
 }
 
 void hello_func(void) {
