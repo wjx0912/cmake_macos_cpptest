@@ -1,3 +1,4 @@
+#ifdef __APPLE__
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -19,3 +20,4 @@ void hello_func(void) {
 
 	return;
 }
+#endif
